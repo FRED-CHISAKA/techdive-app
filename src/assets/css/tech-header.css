@@ -1182,6 +1182,9 @@ body {
     }
 }
 
+.section-title{
+    max-width: 600px !important;
+}
 /* ==============================
    TechDive Pricing Section
 ============================== */
