@@ -23,11 +23,11 @@ export default function Header() {
           <ul className="navbar-nav mx-auto">
             <li><a className="nav-link" href="/">Home</a></li>
             <li className="nav-item dropdown">
-                <a class="nav-link" href=" " id="servicesDropdown"
+                <a className="nav-link" href=" " id="servicesDropdown"
                     role="button" data-bs-toggle="dropdown">
                     About
                 </a>
-                <ul class="dropdown-menu tech-dropdown">
+                <ul className="dropdown-menu tech-dropdown">
                     <li><a className="dropdown-item" href="/about">About Techdive</a></li>
                     <li><a className="dropdown-item" href="/team">TechDive Team</a></li>
                     <li><a className="dropdown-item" href="/policy">Privacy Policy</a></li>
@@ -42,7 +42,7 @@ export default function Header() {
           <div className="nav-right d-flex align-items-center">
 
               {/* <!-- Search Button --> */}
-              <a href=" " class="search-btn me-3" id="openSearch">
+              <a href=" " className="search-btn me-3" id="openSearch">
                   <i className="fas fa-search"></i>
               </a>
 

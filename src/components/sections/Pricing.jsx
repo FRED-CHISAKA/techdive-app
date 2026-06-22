@@ -4,7 +4,7 @@ export default function Pricing() {
         <div className="container py-5">
 
             {/* <!-- Section Header--> */}
-            <div className="section-title text-center position-relative pb-3 mb-5 mx-auto">
+            <div className="section-title text-center pb-3 mb-5 mx-auto">
                 <h5 className="fw-bold text-primary text-uppercase">Our Plans</h5>
                 <h1 className="mb-0">TechDive Service Packages</h1>
                 <div className="animated-line mx-auto mt-2"></div>

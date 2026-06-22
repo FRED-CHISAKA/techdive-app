@@ -3,30 +3,30 @@
    BODY OFFSET
 ===================================================== */
 html, body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 body {
     padding: 0 !important;
-    padding-top: 110px;
+    padding-top: 110px !important;
 }
 /* =====================================================
    TECHDIVE TOPBAR
 ===================================================== */
 .tech-topbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #171539;
-    color: #ffffff;
-    font-size: 14px;
-    padding: 8px 0;
-    z-index: 10000;
-    transition: transform 0.4s ease, opacity 0.4s ease;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background: #171539 !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    padding: 8px 0 !important;
+    z-index: 10000 !important;
+    transition: transform 0.4s ease, opacity 0.4s ease !important;
 }
 .tech-topbar.hide {
-    transform: translateY(-100%);
-    opacity: 0;
+    transform: translateY(-100%) !important;
+    opacity: 0 !important;
 }
 .tech-topbar .top-left i {
     color: #ffffff;
@@ -141,6 +141,11 @@ body {
 }
 
  .tech-logo:hover{
+    color: #ffffff !important;
+}
+
+
+.tech-logo span{
     color: #ffffff !important;
 }
 
@@ -408,18 +413,18 @@ body {
 
 .btn-tech-login {
     /* background: #171539; */
-    background: linear-gradient(135deg, #171539);
-    border: 1px solid #00ccff;
-    color: #00ccff;
-    padding: 8px 20px;
-    border-radius: 25px;
-    font-weight: 500;
-    transition: 0.3s;
+    background: linear-gradient(135deg, #171539) !important;
+    border: 1px solid #00ccff !important;
+    color: #00ccff !important;
+    padding: 8px 20px !important;
+    border-radius: 25px !important;
+    font-weight: 500 !important;
+    transition: 0.3s !important;
 }
 .btn-tech-login:hover {
-    background: #ffffff;
-    color: #171539;
-    border: 1px solid #171539;
+    background: #ffffff !important;
+    color: #171539 !important;
+    border: 1px solid #171539 !important;
 }
 /* =====================================================
    MOBILE
@@ -457,19 +462,19 @@ body {
         margin-top: 4px !important;
     }
     .search-btn:hover {
-        background: linear-gradient(135deg, #171539, #0055ff);
-        color: #00ccff;
-        border: 1px solid #00ccff;
+        background: linear-gradient(135deg, #171539, #0055ff) !important;
+        color: #00ccff !important;
+        border: 1px solid #00ccff !important;
     }
     .btn-tech-login {
         margin-top: 4px !important;
-        background: linear-gradient(135deg, #0055ff, #171539);
-        color: #ffffff;
+        background: linear-gradient(135deg, #0055ff, #171539) !important;
+        color: #ffffff !important;
     }
     .btn-tech-login:hover {
-        background: linear-gradient(135deg, #171539, #0055ff);
-        color: #00ccff;
-        border: 1px solid #00ccff;
+        background: linear-gradient(135deg, #171539, #0055ff) !important;
+        color: #00ccff !important;
+        border: 1px solid #00ccff !important;
     }
 }
 /* ==============================
@@ -546,7 +551,7 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-image: none;
+    background-image: none !important;
     width: 45px;
     height: 45px;
     background: #00ccff !important;
@@ -995,13 +1000,13 @@ body {
     }
 
     .animated-line {
-        width: 40px;
-        height: 3px;
+        width: 40px !important;
+        height: 3px !important;
     }
 
     .animated-line::before {
-        width: 40px;
-        left: -40px;
+        width: 40px !important;
+        left: -40px !important;
     }
 }
 
@@ -1058,33 +1063,37 @@ body {
 ============================ */
 
 .services-item {
-    position: relative;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 10px;
-    overflow: hidden;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative !important;
+    padding: 20px !important;
+    background: #d8d8d8e7 !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    transition: transform 0.4s ease, box-shadow 0.4s ease !important;
 }
 
 /* Card hover effect */
 .services-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 4px 4px rgba(44, 68, 251, 0.812);
+    transform: translateY(-8px) !important;
+    box-shadow: 0 4px 4px rgba(44, 68, 251, 0.812) !important;
 }
 
 /* Icon styling */
 .services-content-icon i {
-    font-size: 3rem;
-    color: #0055ff;
-    margin-bottom: 15px;
-    transition: transform 0.3s ease;
+    font-size: 3rem !important;
+    color: #0055ff !important;
+    margin-bottom: 15px !important;
+    transition: transform 0.3s ease !important;
+}
+
+.services-item a{
+    text-decoration: none !important;
 }
 
 .services-item:hover .services-content-icon i {
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
 }
 
 .services-item .services-content-icon h4{
@@ -1093,20 +1102,20 @@ body {
 }
 
 .section-title h5 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1.3rem !important;
     color: #0055ff !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
 }
 
 .section-title h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 2.2rem;
-    color: #000;
-    line-height: 1.3;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 2.2rem !important;
+    color: #000 !important;
+    line-height: 1.3 !important;
 }
 
 /* Responsive adjustments */
@@ -1133,58 +1142,56 @@ body {
 ============================ */
 
 .services-content .btn {
-    position: absolute;
-    bottom: 15px; 
-    left: 50%;
-    transform: translateX(-50%);
-    background: linear-gradient(135deg, #171539, #0055ff);
-    color: #fff;
-    font-weight: 600;
-    font-size: 0.85rem;       
-    line-height: 1;  
+    position: absolute !important;
+    bottom: 15px !important; 
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    background: linear-gradient(135deg, #171539, #0055ff) !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;       
+    line-height: 1 !important;  
     padding: 0.8rem 1.6rem !important;  
-    border-radius: 20px;     
-    box-shadow: 0 2px 8px rgba(0, 85, 255, 0.2); 
-    max-width: 120px;         
-    white-space: nowrap;      
-    display: flex;            
-    align-items: center;     
-    justify-content: center;  
-    text-align: center;
-    transition: all 0.3s ease;
+    border-radius: 20px !important;     
+    box-shadow: 0 2px 8px rgba(0, 85, 255, 0.2) !important; 
+    max-width: 120px !important;         
+    white-space: nowrap !important;      
+    display: flex !important;            
+    align-items: center !important;     
+    justify-content: center !important;  
+    text-align: center !important;
+    transition: all 0.3s ease !important;
 }
 
 /* Hover effect */
 .services-content .btn:hover {
-    background: linear-gradient(135deg, #0055ff, #171539);
+    background: linear-gradient(135deg, #0055ff, #171539) !important;
     color: #00ccff !important;
     font-weight: 600 !important;
-    transform: translateX(-50%) translateY(-1px) scale(1.02);
-    box-shadow: 0 4px 12px rgba(0, 85, 255, 0.3);
+    transform: translateX(-50%) translateY(-1px) scale(1.02) !important;
+    box-shadow: 0 4px 12px rgba(0, 85, 255, 0.3) !important;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .services-content .btn {
-        bottom: 12px;
-        font-size: 0.6rem;
-        padding: 0.2rem 0.8rem;
-        max-width: 100px;
+        bottom: 12px !important;
+        font-size: 0.6rem !important;
+        padding: 0.2rem 0.8rem !important;
+        max-width: 100px !important;
     }
 }
 
 @media (max-width: 480px) {
     .services-content .btn {
-        bottom: 10px;
-        font-size: 0.55rem;
-        padding: 0.15rem 0.7rem;
-        max-width: 90px;
+        bottom: 10px !important;
+        font-size: 0.55rem !important;
+        padding: 0.15rem 0.7rem !important;
+        max-width: 90px !important;
     }
 }
 
-.section-title{
-    max-width: 600px !important;
-}
+
 /* ==============================
    TechDive Pricing Section
 ============================== */
@@ -1251,20 +1258,20 @@ body {
 
 /* Button */
 .pricing-btn {
-    background: linear-gradient(135deg, #171539, #0055ff);
-    color: #fff;
-    padding: 8px 22px;
-    font-size: 0.85rem;
-    border-radius: 30px;
-    transition: 0.4s ease;
+    background: linear-gradient(135deg, #171539, #0055ff) !important;
+    color: #fff !important;
+    padding: 8px 22px !important;
+    font-size: 0.85rem !important;
+    border-radius: 30px !important;
+    transition: 0.4s ease !important;
 }
 
 .pricing-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 20px rgba(106, 107, 107, 0.4);
-    background: linear-gradient(135deg,#0055ff, #171539);
-    color: #00ccff;
-    font-weight: 600;
+    transform: scale(1.05)  !important;
+    box-shadow: 0 5px 20px rgba(106, 107, 107, 0.4) !important;
+    background: linear-gradient(135deg,#0055ff, #171539) !important;
+    color: #00ccff !important;
+    font-weight: 600 !important;
 }
 
 /* Responsive */
@@ -1341,8 +1348,8 @@ body {
     border: 3px solid #00b7ff;
     padding: 3px;
     margin-bottom: 10px;  
-    width: 60px;
-    height: 60px;
+    width: 70px !important;
+    height: 70px !important;
 }
 
 .testimonial-item h4 {
@@ -1354,6 +1361,11 @@ body {
 
 .testimonial-item .text-start {
     text-align: center !important;
+}
+
+.testimonial-item img{
+    width: 300px !important;
+    height: 300px !important;
 }
 
 .testimonial-item small {
@@ -1499,16 +1511,16 @@ body {
 
 /* Social buttons */
 .team-social .btn {
-    background: linear-gradient(135deg,#171539, #0055ff);
-    color: #fff;
-    border: none;
-    transition: all 0.3s ease;
+    background: linear-gradient(135deg,#171539, #0055ff) !important;
+    color: #fff !important;
+    border: none !important;
+    transition: all 0.3s ease !important;
 }
 
 .team-social .btn:hover {
-    background: linear-gradient(135deg,#0055ff, #171539);
-    color: #00ccff;
-    transform: scale(1.1);
+    background: linear-gradient(135deg,#0055ff, #171539) !important;
+    color: #00ccff !important;
+    transform: scale(1.1) !important;
 }
 
 /* Responsive Adjustments */
@@ -1750,7 +1762,12 @@ body {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    cursor: pointer;
+    cursor: pointer !important;
+}
+
+.contact-detail .rounded-circle {
+    width: 64px; 
+    height: 64px;
 }
 
 .contact-detail .btn-square:hover {
@@ -1842,7 +1859,7 @@ body {
 
 .contact-form .btn:hover {
     background: linear-gradient(135deg,#0055ff, #171539) !important;
-    border: 1px solid #00ccff;
+    border: 1px solid #00ccff !important;
     color: #00ccff !important;
 }
 
@@ -1940,43 +1957,43 @@ body {
 /* Primary Button */
 .modern-cta .btn-primary {
     background: linear-gradient(135deg,#0055ff, #171539) !important;
-    border: 2px solid rgba(0, 179, 255, 0.904);
-    color: #fff;
-    padding: 12px 28px;
-    font-weight: 600;
-    border-radius: 8px;
-    transition: all 0.35s ease;
-    box-shadow: 0 0 2px rgba(34, 22, 255, 0.927);
+    border: 2px solid rgba(0, 179, 255, 0.904) !important;
+    color: #fff !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    transition: all 0.35s ease !important;
+    box-shadow: 0 0 2px rgba(34, 22, 255, 0.927) !important;
 }
 
 .modern-cta .btn-primary:hover {
     background: linear-gradient(135deg,#171539, #0055ff) !important;
-    color: #00d4ff;
-    border-color: #00bfff;
-    transform: translateY(-3px);
-    box-shadow: 0 0 2px rgba(34, 22, 255, 0.927);
+    color: #00d4ff !important;
+    border-color: #00bfff !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 0 2px rgba(34, 22, 255, 0.927) !important;
 }
 
 /* Outline Button */
 .modern-cta .btn-outline-light {
-    border: 2px solid rgba(255,255,255,0.5);
-    color: #ffffff;
-    padding: 12px 28px;
-    font-weight: 600;
-    border-radius: 8px;
-    transition: all 0.35s ease;
+    border: 2px solid rgba(255,255,255,0.5) !important;
+    color: #ffffff !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    transition: all 0.35s ease !important;
 }
 
 .modern-cta .btn-outline-light:hover {
     background: linear-gradient(135deg,#0055ff, #171539) !important;
-    border-color: #00bfff;
-    color: #00d4ff;
-    transform: translateY(-3px);
-    box-shadow: 0 0 2px rgba(34, 22, 255, 0.927);
+    border-color: #00bfff !important;
+    color: #00d4ff !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 0 2px rgba(34, 22, 255, 0.927) !important;
 }
 
 .modern-cta .btn i {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
 }
 
 .fade-in-up {
@@ -2015,8 +2032,8 @@ body {
         font-size: 1.8rem;
     }
     .cta-buttons .btn {
-        width: 100%;
-        margin-bottom: 12px;
+        width: 100% !important;
+        margin-bottom: 12px !important;
     }
 }
 
@@ -2304,7 +2321,7 @@ body {
 /* Feature icon */
 .feature-item i {
     font-size: 2.1rem;
-    color: #ffffff;
+    color: #ffffff !important;
     margin-top: 5px;
 }
 
@@ -2375,6 +2392,7 @@ body {
     font-size: 1.6rem;
     color: #0055ff;
     font-weight: 700;
+    max-width: 600px !important;
 }
 
 .section-subtitle {

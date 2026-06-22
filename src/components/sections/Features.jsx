@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <div className="container-fluid py-5 why-choose-us wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
-            <div className="section-title text-center position-relative pb-3 mb-5 mx-auto">
+            <div className="section-title text-center pb-3 mb-5 mx-auto">
                 <h5 className="fw-bold text-primary text-uppercase">Why Choose Us</h5>
                 <h1 className="mb-0">We Are Here to Grow Your Business Exponentially</h1>
                 <div className="animated-line mx-auto mt-2"></div>

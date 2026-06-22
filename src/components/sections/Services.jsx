@@ -2,7 +2,7 @@ export default function Services() {
   return (
     <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
-            <div className="section-title text-center position-relative pb-3 mb-5 mx-auto">
+            <div className="section-title text-center pb-3 mb-5 mx-auto">
                 <h5 className="fw-bold text-primary text-uppercase">Our Services</h5>
                 <h1 className="mb-0">Services Built Specifically For Your Business</h1>
                 <div className="animated-line mx-auto mt-2"></div>
